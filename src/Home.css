@@ -1,0 +1,54 @@
+
+.home {
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1500px;
+    background-color: rgb(56, 56, 55);
+}
+
+
+.home_row {
+    display:flex;
+    z-index: 1;
+    margin-bottom: 5px;
+    margin-right:5px
+}
+
+.slideshow-container {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide slides by default */
+.mySlides {
+display: none;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {
+    opacity: 0.4;
+}
+to {
+    opacity: 1;
+}
+}
+
+@keyframes fade {
+from {
+    opacity: 0.4;
+}
+to {
+    opacity: 1;
+}
+}
