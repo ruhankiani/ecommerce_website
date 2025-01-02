@@ -1,6 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a project website made to used as a template and inspiration for future website building projects. 
+The website is fully capable of the main ecommerce website functionalities, including product objetcs, adding to cart, checking out, payment processing,
+creating account, signing inetc. The website has also been configured to do user authentication and hosting through firebase, and payment processing using stripe.
+This project utilized mainly react.js, javascript, html and css.
 
 ## Available Scripts
 
